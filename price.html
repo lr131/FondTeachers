@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Fixed Top Navbar Example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default ">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Фонд Учитель</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="index.html">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+			<li class="active"><a href="#">Стоимость услуг</a></li>
+			<li><a href="#about">Открытые вакансии</a></li>
+			<li><a href="#about">Отзывы</a></li>
+			<li><a href="#about">Курсы</a></li>
+			<li><a href="#about">Полезная информация</a></li>
+            <li><a href="#contact">Контакты</a></li>
+             <!--
+			 <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul> 
+            </li> 
+			-->
+          </ul>
+		<!--
+		 <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+		  -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      
+	  <div class="col-sm-12">
+        <h3>Стоимость услуг агенства </h3>
+        <p>
+		Стоимость услуг агенства рассчитывает для каждого работодателя индивидуально, учитывая занятость персонала,выполняемые персоналом обязанности,и скидки (при возможном повторном обращении в агентства)
+		Данный размер состовляет 50% от минимальной заработной платы работника. <b> Минимальный взнос 6000руб </b>. Работодатель заключает договор с агенством на любую из представленных вакансий сроком на 3 месяца. Оплачиваются услуги агенства единоразово. Работодатель имеет право замены в течение этого срока без дополнительной оплаты. 
+		</p>
+		<p>
+		Данные расценки действительны для стандартных видов услуг персонала.
+		</p>
+		<h4>Стоимость работы персонала</h4>
+		 <table class="table">
+			 <thead>
+				 <tr>
+					 <th>Персонал</th>
+					 <th>Стоимость работы</th>
+				 </tr>
+			 </thead>
+			 <tbody>
+				 <tr>
+					 <td>Няня (полный р/д)</td>
+					 <td>от 150руб./ч.</td>
+				 </tr>
+				  <tr>
+					 <td>Няня (частичный  р/д)</td>
+					 <td>от 200руб./ч.</td>
+				 </tr>
+				  <tr>
+					 <td>Няня (с проживанием)</td>
+					 <td>от 30000руб./мес.</td>
+				 </tr>
+				  <tr>
+					 <td>Гувернантка</td>
+					 <td>от 250руб./ч.</td>
+				 </tr>
+				  <tr>
+					 <td>Репетитор</td>
+					 <td>от 350руб./ч.</td>
+				 </tr>
+				  <tr>
+					 <td>Домработница</td>
+					 <td>от 250руб./ч. или дневная оплата от 1500руб./день.</td>
+				 </tr>
+				  <tr>
+					 <td>Домработница(с проживанием)</td>
+					 <td>от 30000руб./мес.</td>
+				 </tr>
+				  <tr>
+					 <td>Сиделка</td>
+					 <td>от 150руб./ч.</td>
+				 </tr>
+				  <tr>
+					 <td>Сиделка(с проживанием)</td>
+					 <td>от 15000руб./мес.</td>
+				 </tr>
+				  <tr>
+					 <td>Водитель</td>
+					 <td>от 30000руб./мес.</td>
+				 </tr>
+				  <tr>
+					 <td>Повар</td>
+					 <td>от 250руб./ч.</td>
+				 </tr>
+				  <tr>
+					 <td>Семейная пара</td>
+					 <td>от 40000руб./мес.</td>
+				 </tr>
+		 </table>
+      </div>
+	  
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
