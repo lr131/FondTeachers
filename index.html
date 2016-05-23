@@ -8,22 +8,23 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="favicon.ico">
 
-    <title>Fixed Top Navbar Example for Bootstrap</title>
+    <title>ФондУчитель: Поиск няни и домработницы в Иркутске</title>
 
     <!-- Bootstrap core CSS -->
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="navbar-fixed-top.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
+    
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,11 +36,25 @@
   <body>
 
     <!-- Fixed navbar -->
+<!--    <div class="navcont">
+        <div class="nav">
+            <ul>
+            <li class="active"><a href="#">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+			<li><a href="price.html">Стоимость услуг</a></li>
+			<li><a href="#about">Открытые вакансии</a></li>
+			<li><a href="#about">Отзывы</a></li>
+			<li><a href="#about">Курсы</a></li>
+			<li><a href="#about">Полезная информация</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </div>
+    </div>-->
     <nav class="navbar navbar-default ">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only">Выпадающее меню</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -56,28 +71,7 @@
 			<li><a href="#about">Курсы</a></li>
 			<li><a href="#about">Полезная информация</a></li>
             <li><a href="#contact">Контакты</a></li>
-             <!--
-			 <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul> 
-            </li> 
-			-->
           </ul>
-		<!--
-		 <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
-          </ul>
-		  -->
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -128,8 +122,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/fond.js"></script>
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/ajax.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
